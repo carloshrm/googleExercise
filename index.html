@@ -13,49 +13,49 @@
     <title>Google!</title>
   </head>
   <body>
-    <header id="header">
-      <div class="header_links"><a href="">Gmail</a></div>
-      <div class="header_links"><a href="">Images</a></div>
-      <div class="header_links"><a href="">...</a></div>
-      <input type="button" class="header_links" id="sign_in" value="Sign In" />
-    </header>
-    <main id="main">
-      <div id="main_logo">
-        <img
-          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-          alt="Main Logo."
-          id="logo"
+    <div id="container">
+      <header id="header">
+        <div class="header_links"><a href="">Gmail</a></div>
+        <div class="header_links"><a href="">Images</a></div>
+        <div class="header_links"><a href="">...</a></div>
+        <input
+          type="button"
+          class="header_links"
+          id="sign_in"
+          value="Sign In"
         />
-      </div>
-      <div id="main_form">
-        <form id="search_form" action="" id="search-form">
-          <div class="search-form-divs">
-            <input type="text" placeholder="Search" />
-          </div>
-          <div class="search-form-divs">
-            <input type="submit" value="Google 検索." />
-          </div>
-          <div class="search-form-divs">
-            <input type="submit" value="I'm Feeling Lucky." />
-          </div>
-        </form>
-        <p id="form-footnote">
-          Google 検索は次の言語でもご利用いただけます: Weebish.
-        </p>
-      </div>
-    </main>
-    <footer id="footer">
-      <div>
-        <a href="">Googleについて</a>
-        <a href="">広告</a>
-        <a href="">ビジネス</a>
-        <a href="">検索の仕組み</a>
-      </div>
-      <div>
-        <a href="">プライバシー</a>
-        <a href="">規約</a>
-        <a href="">設定</a>
-      </div>
-    </footer>
+      </header>
+      <main id="main">
+        <div id="main_logo">
+          <img
+            src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+            alt="Main Logo."
+            id="logo"
+          />
+        </div>
+        <div id="main_form">
+          <form action="" id="search_form">
+            <input id="search_input" type="text" />
+            <input id="search_button" type="submit" value="Google Search." />
+            <input id="lucky_button" type="submit" value="I'm Feeling Lucky." />
+          </form>
+        </div>
+        <p id="form-footnote">Google is also offered in: Weebish.</p>
+      </main>
+      <footer id="footer">
+        <div class="footer_content" id="footer_top">Japan</div>
+        <div class="footer_content" id="footer_right">
+          <a href="">About</a>
+          <a href="">Advertising</a>
+          <a href="">Business</a>
+          <a href="">How search works</a>
+        </div>
+        <div class="footer_content" id="footer_left">
+          <a href="">Privacy</a>
+          <a href="">Terms</a>
+          <a href="">Settings</a>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
