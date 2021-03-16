@@ -1,18 +1,25 @@
 body {
   font-family: "Noto Sans JP", sans-serif;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
   display: flex;
   flex-flow: column nowrap;
-  align-items: center;
-  overflow: auto;
+  width: 100vw;
+  height: 100vh;
 }
+
 #header {
+  margin: 1%;
   display: flex;
   align-self: flex-end;
   min-width: 30%;
 }
 .header_links {
   font-size: 12px;
-
   margin: auto;
   text-align: center;
 }
@@ -30,8 +37,12 @@ body {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-
+  justify-content: center;
   background-color: lawngreen;
+}
+
+#main_form {
+  align-self: center;
 }
 
 a {
