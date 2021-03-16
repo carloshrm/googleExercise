@@ -1,0 +1,40 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  overflow: auto;
+}
+#header {
+  display: flex;
+  align-self: flex-end;
+  min-width: 30%;
+}
+.header_links {
+  font-size: 12px;
+
+  margin: auto;
+  text-align: center;
+}
+
+#sign_in {
+  background-color: rgb(25, 110, 221);
+  border-radius: 10%;
+  color: white;
+  border: transparent;
+  font-size: 14px;
+  padding: 0.8em 2em 0.8em 2em;
+}
+
+#main {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+  background-color: lawngreen;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
